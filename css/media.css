@@ -1,0 +1,272 @@
+.top-background{
+    width: 100%;
+}
+.burger-menu {
+    display: none;
+}
+@media screen and (max-width: 1440px) {
+    .line-pink{
+        left: 124px;
+    }
+    .line-blue{
+        left: 890px;
+    }
+    .additional .star{
+        right: 73px;
+    }
+    .container-form__title{
+        margin-left: 280px;
+    }
+    .container-form{
+        top: 415px;
+    }
+    #getProfitBtn{
+        margin-left: 280px;
+    }
+    .cross-line.blue{
+        top: 370px;
+    }
+    .cross-line.yellow{
+        top: 350px;
+        right: 1px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .container{
+        max-width: 994px;
+    }
+    .header__top-banner{
+        width: 100%;
+        max-width: 864px;
+    }
+    .info-block__title{
+        font-size: 120px;
+    }
+    .additional .star{
+        height: 230px;
+        right: 47px;
+        top: 60px;
+    }
+    .additional .star img{
+        height: 230px;
+    }
+    .info-block{
+        margin-top: -575px;
+        padding-left: 43px;
+        max-width: 930px;
+    }
+    .info-block__title span:last-child{
+        margin-top: 148px;
+    }
+    .line-pink{
+        left: 53px;
+        top: -187px;
+    }
+    .line-blue{
+        left: 660px;
+        top: -430px;
+    }
+    .info-block__title span:last-child:after{
+        left: -40px;
+        top: 109px;
+    }
+    .container-form{
+        top: 313px;
+    }
+    .container-form__title{
+        margin-left: 185px;
+    }
+    #getProfitBtn{
+        margin-left: 185px;
+    }
+    .cross-line.blue{
+        top: 279px;
+    }
+    .cross-line.yellow{
+        top: 240px;
+        right: 1px;
+    }
+    .top-background img{
+        width: 1025px;
+        height: 1000px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .info-block__title{
+        font-size: 94px;
+    }
+    .top-background img{
+        width: 768px;
+    }
+    .container{
+        max-width: 738px;
+    }
+    .top-background{
+        width: 768px;
+    }
+    .header__top-banner{
+        width: unset;
+    }
+    .cross-line.yellow{
+        right: 2px;
+    }
+    .additional .star{
+        height: 209px;
+        right: 15px;
+        top: 80px;
+        overflow: hidden;
+    }
+    .additional .star img{
+        height: 209px;
+        transform: rotate(-30deg);
+    }
+    .container-form__title span:first-child{
+        font-size: 16px;
+    }
+    .info-block__title span:last-child:after{
+        left: 0px;
+        top: 89px;
+        width: 78px;
+        height: 55px;
+    }
+    .header__top-banner{
+        padding: 20px 18px;
+    }
+    .info-block{
+        margin-top: -566px;
+        padding-left: 13px;
+    }
+    .line-pink {
+        left: 13px;
+        top: -179px;
+    }
+    .line-blue {
+        left: 490px;
+    }
+    .header__buttons{
+        font-weight: 500;
+        font-size: 18px;
+        gap: 66px;
+    }
+    .info-block__title span:last-child {
+        margin-top: 120px;
+    }
+    .container-form{
+        top: 230px;
+        gap: 15px;
+    }
+    .container-form__title{
+        margin-left: 115px;
+        width: 355px;
+    }
+    #getProfitBtn{
+        margin-left: 115px;
+    }
+    .cross-line.blue{
+        top: 170px;
+    }
+    .cross-line.yellow{
+        top: 115px;
+    }
+}
+@media (max-width: 360px) {
+    .header__buttons {
+        display: none;
+    }
+    .burger-menu {
+        display: block;
+    }
+
+    .burger-icon {
+        font-size: 30px;
+        cursor: pointer;
+        display: block;
+    }
+
+    .menu-content {
+        display: none;
+        position: absolute;
+        top: 40px;
+        right: 0;
+        padding: 10px;
+        background: rgba(30, 30, 30, 0.5);
+        box-shadow: inset 11px 13px 18px -16px rgba(255, 255, 255, 0.1);
+        border-radius: 16px;
+        color: #E0EAFF;
+        font-family: 'Unbounded';
+        font-weight: 500;
+    }
+
+    .menu-content div {
+        padding: 10px 0;
+        cursor: pointer;
+    }
+
+    .menu-content div:hover {
+        background-color: #f5f5f5;
+    }
+    .info-block__title{
+        font-size: 46px;
+    }
+    .info-block__title span:last-child:after{
+        left: 130px;
+        top: 41px;
+    }
+    .container-form__title{
+        margin-left: 0px;
+        width: 320px;
+    }
+    #getProfitBtn{
+        width: 320px;
+        height: 52px;
+        margin-left: 0px;
+    }
+    .line-blue{
+        left: 239px;
+        top: -465px;
+    }
+    .sale-desc{
+        display: flex;
+        width: 288px;
+        height: 68px;
+        left: 15px;
+        top: 130px;
+    }
+    .top-background{
+        width: 360px;
+    }
+    .top-background img{
+        width: 360px;
+    }
+    .container{
+        max-width: 330px;
+    }
+    .cross-line.blue{
+        right: 10px;
+        top: 325px;
+    }
+    .cross-line.yellow{
+        right: 3px;
+        top: 325px;
+    }
+    .header__top-banner{
+        border-radius: 16px;
+    }
+    .additional .star img{
+        height: 129px;
+        transform: rotate(260deg);
+    }
+    .additional .star{
+        height: 209px;
+        right: 0px;
+        top: 50px;
+        overflow: hidden;
+        width: 101px;
+    }
+    .info-block__title span:last-child{
+        margin-top: 70px;
+    }
+    #profitForm{
+        width: 225px;
+    }
+}

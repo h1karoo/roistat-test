@@ -7,6 +7,20 @@
     font-display: swap;
 }
 @font-face {
+    font-family: 'UnboundedSB';
+    src: url('../fonts/Unbounded-SemiBold.ttf') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Unbounded1';
+    src: url('../fonts/Unbounded-Black.ttf') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
     font-family: 'SuisseIntl';
     src: url('../fonts/SuisseIntl-SemiBold.otf') format('woff2');
     font-style: normal;
@@ -26,7 +40,7 @@
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    z-index: 9999;
+    z-index: 99999;
 }
 #profitForm{
     display: flex;
@@ -63,6 +77,7 @@
     border-radius: 8px;
     box-shadow: inset 1px 1px 0px 0px rgba(255, 255, 255, 0.1);
     border: none;
+    color: #fff;
 }
 .profitForm__checkout{
     display: block;
@@ -116,5 +131,257 @@
     bottom: 0px;
     left: 0px;
     right: 0px;
-    background-color:rgb(0, 0, 0);
+    background-color:rgba(0, 0, 0, 0.8);
+    z-index: 99998;
 }
+.header{margin-top:40px;width: 100%;}
+.container{
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+    max-width: 1410px;
+}
+.top-background{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    z-index: -1;
+    right: 0px;
+    /* background-image: url(../img/background.png);
+    background-size: 100%; */
+    /* height: 100%; */
+}
+.top-background img{
+    width: 100%;
+    position: absolute;
+}
+.header__top-banner{
+    position: relative;
+    height: 36px;
+    border-radius: 24px;
+    background: rgba(30, 30, 30, 0.2);
+    box-shadow: inset 1px 9px 44px -4px rgba(255, 255, 255, 0.1);
+    border: none;
+    padding: 24px 40px;
+    display: flex;
+    justify-content: space-between;
+    backdrop-filter: blur(10px);
+    z-index: 9999;
+    width: 100%;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header__logo-container{
+    max-height: 100%;
+    display: flex;
+    align-items: center;
+}
+.header__logo-container img{
+    width: 110px;
+}
+.header__buttons{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    font-family: 'Unbounded', sans-serif;
+    font-weight: 600;
+}
+.header__buttons div{
+    padding: 8px;
+    color: #E0EAFF;
+}
+.info-block{
+    min-height: min-content;
+    margin-top: -510px;
+    padding-left: 100px;
+}
+.info-block__title{
+    font-family: 'Unbounded1', sans-serif;
+    font-size: 160px;
+}
+.info-block__title span:first-child{
+    position: absolute;
+    color: #fff;
+    transform: rotate(7.01deg);
+}
+.info-block__title span:last-child{
+    position: absolute;
+    margin-top: 200px;
+    color: #FE64FA;
+}
+.info-block__title span:last-child:after{
+    content: "";
+    background-image: url(../img/ticket.png);
+    background-size: 100%;
+    width: 149px;
+    height: 111px;
+    position: absolute;
+    left: -10px;
+    top: 150px;
+}
+.line-blue {
+    width: 2px; 
+    height: 318px; 
+    background-color: #8F8FFF;
+    position: relative; 
+    left: 880px;
+    z-index: 999;
+    top: -340px;
+  }
+  .line-blue:after, .line-pink:after {
+    content: "";
+    width: 5px;
+    height: 5px; 
+    background-color: #000000;
+    border-radius: 50%; 
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    /* z-index: -1; */
+    transform: translateX(-50%);
+  }
+  .line-pink {
+    width: 2px;
+    height: 216px;
+    background-color: #FE64FA;
+    position: relative;
+    left: 70px;
+    top: -124px;
+    z-index: 999;
+  }
+  .additional{
+    height: 600px;
+  }
+  .additional .star{
+    position: absolute;
+    height: 288px;
+    top: 50px;
+    right: 310px;
+  }
+  .container-form{
+    top: 400px;
+    position: relative;
+    display: flex;
+    height: 138px;
+    flex-direction: column;
+    gap: 32px;
+  }
+  .container-form__title{
+    font-family: 'SuisseIntl1';
+    font-size: 18px;
+    width: 400px;
+    color: #E0EAFF;
+    margin-left: 210px;
+  }
+#getProfitBtn{
+    justify-content: space-between;
+    display: flex;
+    width: 320px;
+    height: 52px;
+    border-radius: 16px;
+    background-color:#8F8FFF;
+    font-family: 'Unbounded';
+    color: #fff;
+    border: none;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 24px;
+    padding-right: 20px;
+    margin-left: 210px;
+    z-index: 99998;
+}
+.cross-line.blue{
+    display: flex;
+    flex-direction: row;
+    height: 48px;
+    width: 100%;
+    gap: 32px;
+    transform: rotate(-12.47deg);
+    background: rgba(30, 30, 30, 0.2);
+    box-shadow: inset 0px 12px 0px -10px rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    z-index: 9999;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    top: 340px;
+    overflow: hidden;
+}
+.cross-line.blue .cross-line__up{
+    height: 48px;
+    font-size: 40px;
+    font-weight: 600;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #8F8FFF;
+  }
+.cross-line.blue .cross-line__up img{
+    height: 48px;
+}
+.cross-line.blue .cross-line__separator{
+    height: 48px;
+}
+.cross-line.yellow{
+    display: flex;
+    flex-direction: row;
+    height: 48px;
+    width: 100%;
+    gap: 32px;
+    transform: rotate(-4.8deg);
+    background: rgba(30, 30, 30, 0.2);
+    box-shadow: inset 0px 12px 0px -10px rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    z-index: 9998;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    top: 340px;
+    overflow: hidden;
+}
+.cross-line.yellow .cross-line__up{
+    height: 48px;
+    font-size: 40px;
+    font-weight: 600;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #8F8FFF;
+  }
+.cross-line.yellow .cross-line__up img{
+    height: 48px;
+}
+.cross-line.yellow .cross-line__separator{
+    height: 48px;
+}
+.sale-desc{
+    display: none;
+    font-size: 13px; 
+    font-family: 'SuisseIntl1';
+    width: 359px;
+    height: 51px;
+    top: 200px;
+    position: absolute;
+    right: 17px;
+    color: #E0EAFF;
+    z-index: 9999;
+    font-weight: 100;
+}
+.burger-icon{
+    margin-top: 10px;
+}
+.offers:hover{
+    color: #8F8FFF;
+}
+.prices:hover{
+    color: #8F8FFF;
+}
+#getProfitBtn:hover{
+    background: #A3A3FF;
+}
+#getProfitBtn:active{
+    background: #6464FF;
+}
+
+  
+  
+  
