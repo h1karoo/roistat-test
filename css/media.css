@@ -59,11 +59,13 @@
         margin-top: 148px;
     }
     .line-pink{
-        left: 53px;
+        left: 63px;
         top: -187px;
+        z-index: 99998;
     }
     .line-blue{
-        left: 660px;
+        z-index: 99998;
+        left: 670px;
         top: -430px;
     }
     .info-block__title span:last-child:after{
@@ -137,10 +139,12 @@
         padding-left: 13px;
     }
     .line-pink {
+        z-index: 2;
         left: 13px;
         top: -179px;
     }
     .line-blue {
+        z-index: 2;
         left: 490px;
     }
     .header__buttons{
