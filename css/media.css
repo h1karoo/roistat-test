@@ -168,6 +168,9 @@
     .cross-line.yellow{
         top: 115px;
     }
+    .sale-desc{
+        display: flex;
+    }
 }
 @media (max-width: 360px) {
     .header__buttons {
