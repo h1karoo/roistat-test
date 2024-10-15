@@ -9,4 +9,4 @@ You need to place the project folder in this path.
 
 Next, you will need to launch the Apache module in the Control Panel and click on this link in the browser.
 
-### `http://localhost/ROISTAT-FORM/index.html`
+### `http://localhost/roistat-test/index.html`
